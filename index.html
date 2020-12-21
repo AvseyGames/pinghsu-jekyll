@@ -22,9 +22,10 @@ layout: default
                         {{ post.date | date: "%b %d, %Y" }}
                         </div>
                         <div class="item-meta clearfix">
-                            <div class="item-meta-ico {% if post.icon %}bg-ico-{{ post.icon }}{% endif %}" style="background: url({{ '/style/image/bg-ico.png' | prepend: site.baseurl }}) no-repeat;background-size: 40px auto;"></div>
                             <div class="item-meta-cat">
-                                <a href="javascript:void(0);">{{ post.category }}</a>
+                                <a href="{{ item.project.url}}" target="_blank">
+									<img alt="" src="{{ site.baseurl | append: "/assets/images/GooglePlay-Button.svg" }}">
+								</a>
                             </div>
                         </div>
                     </div>
