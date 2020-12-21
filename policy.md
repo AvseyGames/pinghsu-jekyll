@@ -2,7 +2,7 @@
 
 layout: post
 
-title: About site
+title: Private policy
 
 ---
 
