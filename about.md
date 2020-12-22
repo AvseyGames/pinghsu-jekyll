@@ -3,4 +3,4 @@ layout: post
 title: About site
 ---
 
-Contact: avseygames@gmail.com
+Contact: <avseygames@gmail.com>
