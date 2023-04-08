@@ -1,10 +1,9 @@
 ---
-
-layout: post
-
-title: Private policy
-
+layout: default
+title: Generate Page
 ---
+
+# Generate Page
 
 Select options from the dropdowns below:
 
@@ -14,6 +13,32 @@ Select options from the dropdowns below:
 | Value 1      | Value 2      | Value 3      |
 | Value 4      | Value 5      | Value 6      |
 | Value 7      | Value 8      | Value 9      |
+
+<form>
+  <fieldset>
+    <legend>Select options:</legend>
+    <select name="option1">
+      <option value="">Select option 1</option>
+      <option value="Value 1">Value 1</option>
+      <option value="Value 4">Value 4</option>
+      <option value="Value 7">Value 7</option>
+    </select>
+
+    <select name="option2">
+      <option value="">Select option 2</option>
+      <option value="Value 2">Value 2</option>
+      <option value="Value 5">Value 5</option>
+      <option value="Value 8">Value 8</option>
+    </select>
+
+    <select name="option3">
+      <option value="">Select option 3</option>
+      <option value="Value 3">Value 3</option>
+      <option value="Value 6">Value 6</option>
+      <option value="Value 9">Value 9</option>
+    </select>
+  </fieldset>
+</form>
 
 Selected options: <span id="selected-options"></span>
 
