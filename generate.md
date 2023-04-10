@@ -8,6 +8,8 @@ title: Generate Page
 
 | Форма | Описание |
 | --- | --- |
+| <select name="option1"><option value="">Select option 1</option><option value="Value 1">Value 1</option><option value="Value 2">Value 2</option><option value="Value 3">Value 3</option></select> | Форма с двумя элементами select для выбора опций 1 и 2 |
+|  | Форма с двумя элементами select для выбора опций 1 и 2 |
 |  | Форма с двумя элементами select для выбора опций 1 и 2 |
 
 
