@@ -6,41 +6,17 @@ title: Generate Page
 # Generate Page
 
 Select options from the dropdowns below:
-
-| Select option 1 | Select option 2 |Select option 3 |
-| --- | --- | --- |
-
-| Форма | Описание |
-| --- | --- |
-| <form> <select name="option1"> <option value="">Выберите опцию 1</option> <option value="option1-1">Опция 1-1</option> <option value="option1-2">Опция 1-2</option> </select> <select name="option2"> <option value="">Выберите опцию 2</option> <option value="option2-1">Опция 2-1</option> <option value="option2-2">Опция 2-2</option> </select> <button type="submit">Отправить</button> </form> | Форма с двумя элементами select для выбора опций 1 и 2 |
-
-
-
 <form>
   <fieldset>
-    <legend>Select options:</legend>
-    <select name="option1">
-      <option value="">Select option 1</option>
-      <option value="Value 1">Value 1</option>
-      <option value="Value 2">Value 2</option>
-      <option value="Value 3">Value 3</option>
-    </select>
-
-    <select name="option2">
-      <option value="">Select option 2</option>
-      <option value="Value 4">Value 4</option>
-      <option value="Value 5">Value 5</option>
-      <option value="Value 6">Value 6</option>
-    </select>
-
-    <select name="option3">
-      <option value="">Select option 3</option>
-      <option value="Value 7">Value 7</option>
-      <option value="Value 8">Value 8</option>
-      <option value="Value 9">Value 9</option>
-    </select>
+| Select option 1 | Select option 2 |
+| --- | --- |
+|<select name="option1"><option value="">Select option 1</option><option value="Value 1">Value 1</option><option value="Value 2">Value 2</option><option value="Value 3">Value 3</option></select>|context|
+|<select name="option2"><option value="">Select option 2</option><option value="Value 4">Value 4</option><option value="Value 5">Value 5</option><option value="Value 6">Value 6</option></select>|context|
+|<select name="option3"><option value="">Select option 3</option><option value="Value 7">Value 7</option><option value="Value 8">Value 8</option><option value="Value 9">Value 9</option></select>|context|
+    
   </fieldset>
 </form>
+
 
 Selected options: <span id="selected-options"></span>
 
