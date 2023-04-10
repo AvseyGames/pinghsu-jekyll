@@ -9,9 +9,9 @@ Select options from the dropdowns below:
     
 | Форма | Описание |
 | --- | --- |
-| <form><select name="option1"><option value="">Select option 1</option><option value="Value 1">Value 1</option><option value="Value 2">Value 2</option><option value="Value 3">Value 3</option></select></form> | Форма с двумя элементами select для выбора опций 1 и 2 |
-| <form><select name="option2"><option value="">Select option 2</option><option value="Value 4">Value 4</option><option value="Value 5">Value 5</option><option value="Value 6">Value 6</option></select></form> | Форма с двумя элементами select для выбора опций 1 и 2 |
-| <form><select name="option3"><option value="">Select option 3</option><option value="Value 7">Value 7</option><option value="Value 8">Value 8</option><option value="Value 9">Value 9</option></select></form> | Форма с двумя элементами select для выбора опций 1 и 2 |
+| <select name="option1"><option value="">Select option 1</option><option value="Value 1">Value 1</option><option value="Value 2">Value 2</option><option value="Value 3">Value 3</option></select> | <span id="options-1"></span> |
+| <select name="option2"><option value="">Select option 2</option><option value="Value 4">Value 4</option><option value="Value 5">Value 5</option><option value="Value 6">Value 6</option></select> | Форма с двумя элементами select для выбора опций 1 и 2 |
+| <select name="option3"><option value="">Select option 3</option><option value="Value 7">Value 7</option><option value="Value 8">Value 8</option><option value="Value 9">Value 9</option></select> | Форма с двумя элементами select для выбора опций 1 и 2 |
 
 
 
@@ -25,6 +25,7 @@ Selected options: <span id="selected-options"></span>
 
   // Get the span element for displaying selected options
   const selectedOptions = document.querySelector('#selected-options');
+  const options1 = document.querySelector('#options-1');
 
   // Add event listeners to the select elements
   option1.addEventListener('change', updateSelectedOptions);
@@ -40,5 +41,6 @@ Selected options: <span id="selected-options"></span>
 
     // Update the text of the span element with the selected values
     selectedOptions.textContent = `${value1}, ${value2}, ${value3}`;
+    options1.textContent = `${value1}`;
   }
 </script>
