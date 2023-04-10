@@ -7,6 +7,15 @@ title: Generate Page
 
 Select options from the dropdowns below:
 
+| Select option 1 | Select option 2 |Select option 3 |
+| --- | --- | --- |
+
+| Форма | Описание |
+| --- | --- |
+| <form> <select name="option1"> <option value="">Выберите опцию 1</option> <option value="option1-1">Опция 1-1</option> <option value="option1-2">Опция 1-2</option> </select> <select name="option2"> <option value="">Выберите опцию 2</option> <option value="option2-1">Опция 2-1</option> <option value="option2-2">Опция 2-2</option> </select> <button type="submit">Отправить</button> </form> | Форма с двумя элементами select для выбора опций 1 и 2 |
+
+
+
 <form>
   <fieldset>
     <legend>Select options:</legend>
