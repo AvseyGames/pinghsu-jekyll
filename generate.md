@@ -5,14 +5,22 @@ title: Generate Page
 
 # Generate Page
 
+
+| Форма | Описание |
+| --- | --- |
+|  | Форма с двумя элементами select для выбора опций 1 и 2 |
+
+
+
+
 Select options from the dropdowns below:
 <form>
   <fieldset>
 | Select option 1 | Select option 2 |
 | --- | --- |
-|<select name="option1"><option value="">Select option 1</option><option value="Value 1">Value 1</option><option value="Value 2">Value 2</option><option value="Value 3">Value 3</option></select>|context|
-|<select name="option2"><option value="">Select option 2</option><option value="Value 4">Value 4</option><option value="Value 5">Value 5</option><option value="Value 6">Value 6</option></select>|context|
-|<select name="option3"><option value="">Select option 3</option><option value="Value 7">Value 7</option><option value="Value 8">Value 8</option><option value="Value 9">Value 9</option></select>|context|
+| <select name="option1"><option value="">Select option 1</option><option value="Value 1">Value 1</option><option value="Value 2">Value 2</option><option value="Value 3">Value 3</option></select> | context |
+| <select name="option2"><option value="">Select option 2</option><option value="Value 4">Value 4</option><option value="Value 5">Value 5</option><option value="Value 6">Value 6</option></select> | context |
+| <select name="option3"><option value="">Select option 3</option><option value="Value 7">Value 7</option><option value="Value 8">Value 8</option><option value="Value 9">Value 9</option></select> | context |
     
   </fieldset>
 </form>
